@@ -1,0 +1,106 @@
+body {
+    font-family: "Geist", serif;
+    margin: 0;
+
+}
+
+#main-container {
+    width: 650px;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+#container-header {
+    background-color: #6943FF;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    justify-content: center;
+    height: 250px;
+    margin: 0;
+
+}
+
+button {
+    padding: 10px 24px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+
+    border: none;
+}
+
+
+input {
+    width: 50px;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 20px;
+    background-color: #6943FF;
+    border-radius: 3px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+
+
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+#container-body {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+
+#container-body .list {
+    background-color: #273549;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-body .list h2 {
+    color: #CCC1FF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+
+.results {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
